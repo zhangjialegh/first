@@ -9,6 +9,7 @@
  - obj[key]就代表每一个value值
 ```
 var obj={'a':1,'matrix':2,'x':'abc',fn:function(){console.log(1);}};
+
 for(var key in obj){
 console.log(`${key}:${obj[key]}`)
 };
